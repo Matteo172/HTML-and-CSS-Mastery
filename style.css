@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-image: url(./photos/electronic-gadgets-array-stockcake.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    
+}
+
+.opacity-effect{
+    background-color: rgba(0, 0, 0, 0.685);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+nav{
+    margin: 0;
+    height: 10vh;
+    width: auto;
+    padding: 2vh;
+    position: fixed;
+}
+
+#nav-container{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+#logo{
+    margin-top: 2.5vh;
+    height: 10vh;
+    margin-left: 3vw;
+}
+
+#brand-name{
+    font-size: 5vh;
+    margin-left: 1vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(185, 185, 199);
+
+}
+
+.underline-logo-name{
+    text-decoration:none;
+
+}
+
+.button-container{
+    margin-left: 33vw;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.3vh;
+    font-weight: 549;
+    margin-left: 1.5vw;
+    transition: width 0.3s, border-color 0.3s, font-size 0.3s;
+    width: 6vw;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    width: 7vw;
+    font-size: 2.7vh;
+}
+
+#Signin{
+    color: white;
+    background-color: rgb(18, 21, 63);
+    height: 5.7vh;
+    border-radius: 17px;
+    font-weight: bold;
+}
+
+#Signin:hover{
+    background-color: white;
+    color: rgb(18, 21, 63);
+
+}
+
+/* 31485D 
+
+rgb(49, 72, 93)*/
+
+main{
+    margin-left: 5vw;
+    
+}
+
+#signin-word{
+    margin: 0;
+    position: relative;
+    color: rgba(185, 185, 199, 0.788);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 20vh;
+    font-size: 4vh;
+    
+}
+
+#enjoy{
+    position: relative;
+    top: 19vh;
+    color: rgb(185, 185, 199);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.4vh;
+
+}
+
+.login-container{
+    background-color: rgb(154, 153, 170);
+    height: 47vh;
+    width: 40vw;
+    position: relative;
+    top: 21vh;
+    border-radius: 15px;
+}
