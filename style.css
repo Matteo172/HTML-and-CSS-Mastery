@@ -81,11 +81,11 @@ button:hover{
 
 #Signin{
     color: white;
-    background-color: rgb(18, 21, 63);
     height: 5.7vh;
     border-radius: 17px;
     font-weight: bold;
     transition: width 0.2s, border-color 0.3s, font-size 0.3s;
+    border: 2px solid white;
 }
 
 #Signin:hover{
@@ -149,7 +149,9 @@ main{
     padding: 2vh;
     margin-bottom: 3vh;
     outline: 3px solid transparent;
-    transition: outline 0.1s ease
+    transition: outline 0.1s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serifq;
+    font-size: 2vh;
 }
 
 #emailAddress:focus{

@@ -1,1 +1,1 @@
-## HTML and CSS Mastery (Day 1)
+## WarrantEase (Day 1)
