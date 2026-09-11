@@ -52,7 +52,7 @@ body{
     width: 70vw;
     animation: slideFromTop 1s ease-out forwards;
     position: relative;
-    top: 55vh;
+    top: 56vh;
     
 }
 
@@ -60,7 +60,7 @@ body{
     width: 70vw;
     animation: slideFromBottom 1s ease-out forwards;
     position: relative;
-    bottom: 2vh;
+    bottom: 0vh;
 
 }
 
